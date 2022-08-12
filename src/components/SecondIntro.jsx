@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import SecondIntroImage from "../assets/images/second-intro.png";
 
 const SecondIntro = () => {

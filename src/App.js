@@ -6,6 +6,7 @@ import SecondIntro from "./components/SecondIntro";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import OurProducts from "./components/OurProducts";
+import WhyUs from "./components/WhyUs";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Intro />
       <SecondIntro />
       <OurProducts />
+      <WhyUs />
       <About />
       <Footer />
     </div>

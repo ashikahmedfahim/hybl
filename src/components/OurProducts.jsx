@@ -91,7 +91,7 @@ const OurProducts = () => {
         </Col>
       </Row>
       <div className="text-center">
-        <Button className="see-more-btn mt-5">See More</Button>
+        <button className="see-more-btn mt-5">See More</button>
       </div>
     </Container>
   );
