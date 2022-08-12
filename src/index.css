@@ -13,7 +13,7 @@
 .intro-content > div {
   width: 50%;
 }
-.intro-btn{
+.intro-btn {
   margin: 25px 0;
   background-image: linear-gradient(to right, white, #759eff);
   color: #2461f1;
@@ -26,10 +26,10 @@
 
 /* second intro   */
 
-.second-intro-section{
+.second-intro-section {
   padding: 150px 0;
 }
-.second-intro-btn{
+.second-intro-btn, .see-more-btn {
   margin: 25px 0;
   background-image: linear-gradient(to right, #2461f1, #759eff);
   color: white;
@@ -39,20 +39,43 @@
   font-weight: 500;
   font-size: 1rem;
 }
+/* all products  */
+
+.card {
+  border: none;
+}
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+/* about section  */
+.about-section {
+  padding: 50px 0;
+}
+.about-details > div {
+  background-color: #2461f1;
+  margin: 15px 0;
+  padding: 40px;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
 
 /* footer  */
-.footer{
+.footer {
   background-color: #2461f1;
   padding: 100px 0;
 }
 
-@media (min-width: 576px) {  }
+@media (min-width: 576px) {
+}
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   .intro-content > div {
     width: 100%;
   }
-  .intro-content img{
+  .intro-content img {
     width: 50%;
   }
- }
+}
