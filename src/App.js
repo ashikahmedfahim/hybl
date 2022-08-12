@@ -7,6 +7,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.css";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import SecondIntro from "./components/SecondIntro";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Intro />
       <SecondIntro />
+      <Footer />
     </div>
   );
 }
